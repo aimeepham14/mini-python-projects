@@ -36,5 +36,12 @@ if answer.lower() == "power supply unit":
 else:
     print("Incorrect!")
 
+answer = input("What does YAML stand for? ")
+if answer.lower() == "yet another markup language":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
 print("You got " + str(score) + " questions correct!")
 print("You got " + str((score/4) * 100) + "%.")
